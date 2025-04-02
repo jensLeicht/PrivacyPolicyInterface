@@ -1,0 +1,94 @@
+name: pripocog_privacy_policy_interface
+description: A privacy policy interface for P-LPL privacy policies.
+publish_to: 'none'
+version: 1.0.0
+repository: https://github.com/jensLeicht/PrivacyPolicyInterface
+
+paltforms:
+  web:
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  countries_world_map: ^1.3.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  get: ^4.7.2
+  http: ^1.3.0
+  intl: ^0.19.0
+  json_annotation: ^4.9.0
+  url_launcher: ^6.3.1
+  vector_graphics: ^1.1.18
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  json_serializable: ^6.9.4
+  build_runner: ^2.4.15
+  vector_graphics_compiler: ^1.1.16
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - path: assets/flags/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/DaPIS/processing_purposes/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/DaPIS/purpose_categories/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/DaPIS/data_categories/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/DaPIS/retention/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/DaPIS/data_sensitivity/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/DaPIS/entity_types/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/DaPIS/legal_bases/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/DaPIS/matrix/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/svg/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/DaPIS/roles/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/DaPIS/data_subject_rights/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/DaPIS/purpose_details/
+      transformers:
+      - package: vector_graphics_compiler
+    - path: assets/material/
+      transformers:
+      - package: vector_graphics_compiler
+
+  fonts:
+    - family: Noto Sans Symbols
+      fonts:
+        - asset: assets/font/NotoSansSymbols-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/Roboto-Black.ttf
+          weight: 900
+        - asset: assets/font/Roboto-Bold.ttf
+          weight: 700

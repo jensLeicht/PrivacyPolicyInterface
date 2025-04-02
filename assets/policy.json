@@ -1,0 +1,2137 @@
+{
+    "version": "1.0",
+    "name": "Test Policy",
+    "lang": "en",
+    "privacyPolicyUri": "",
+    "iconList": [],
+    "dataSource": {
+        "publicAvailable": "False",
+        "name": "",
+        "authInfo": "",
+        "classification": "",
+        "type": ""
+    },
+    "purposeList": [
+        {
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Marketing"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "Processed by the manager (James Greensborough)\ndata processed: processed and stored until deletion is requested\nprocessing is based on consent"
+                }
+            ],
+            "name": "Marketing",
+            "optOut": false,
+            "required": false,
+            "pointOfAcceptance": "",
+            "dataRecipientList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Parcel Service"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "The delivery company in charge of delivering your order to you."
+                        }
+                    ],
+                    "name": "ParcelService_Marketing",
+                    "authInfo": "",
+                    "classification": "Legal Entity",
+                    "type": "DataRecipient",
+                    "id": 0,
+                    "required": true,
+                    "pointOfAcceptance": "",
+                    "thirdCountryTransfer": false,
+                    "country": "PT",
+                    "adequacyDecision": false,
+                    "safeguardList": [
+                        {
+                            "head": [],
+                            "desc": [],
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Parcel Service WW"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "The delivery company in charge of delivering your order to you."
+                        }
+                    ],
+                    "name": "ParcelServiceWW_Marketing",
+                    "authInfo": "",
+                    "classification": "Legal Entity",
+                    "type": "DataRecipient",
+                    "id": 2,
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "thirdCountryTransfer": true,
+                    "country": "*",
+                    "adequacyDecision": false,
+                    "safeguardList": [
+                        {
+                            "head": [],
+                            "desc": [],
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "dataList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Address"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "apartment , street , house number , ZIP-code, country"
+                        }
+                    ],
+                    "id": 0,
+                    "name": "Adress_Marketing",
+                    "required": true,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Location"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information about an individual's location, e.g., country, GPS coordinates, room number."
+                                }
+                            ],
+                            "name": "dc_location"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Name"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "Given Name + Surname"
+                        }
+                    ],
+                    "id": 1,
+                    "name": "name_Marketing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Account"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that identifies an individual's financial account, e.g., credit card number, bank account."
+                                }
+                            ],
+                            "name": "dc_account"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Contact"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that provides a mechanism for contacting an individual, e.g., email address, physical address, telephone number."
+                                }
+                            ],
+                            "name": "dc_contact"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Communication"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information communicated from or to an individual, e.g., telephone recordings, voice mail, email."
+                                }
+                            ],
+                            "name": "dc_communication"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Identifying"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that uniquely or semi-uniquely identifies a specific individual, e.g., name, user-name, unique identifier, government issued identification, picture, biometric data."
+                                }
+                            ],
+                            "name": "dc_identifying"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Mail-Address"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "Address"
+                        }
+                    ],
+                    "id": 3,
+                    "name": "E-mail Address_Marketing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Account"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that identifies an individual's financial account, e.g., credit card number, bank account."
+                                }
+                            ],
+                            "name": "dc_account"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Communication"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information communicated from or to an individual, e.g., telephone recordings, voice mail, email."
+                                }
+                            ],
+                            "name": "dc_communication"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Contact"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that provides a mechanism for contacting an individual, e.g., email address, physical address, telephone number."
+                                }
+                            ],
+                            "name": "dc_contact"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Phone Number"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "The number to enter in a phone."
+                        }
+                    ],
+                    "id": 2,
+                    "name": "Phone Number_Marketing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Communication"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information communicated from or to an individual, e.g., telephone recordings, voice mail, email."
+                                }
+                            ],
+                            "name": "dc_communication"
+                        }
+                    ],
+                    "dataGroupList": []
+                }
+            ],
+            "retention": {
+                "head": [
+                    {
+                        "lang": "en",
+                        "value": "Retention"
+                    }
+                ],
+                "desc": [
+                    {
+                        "lang": "en",
+                        "value": "Stored until further notice."
+                    }
+                ],
+                "type": "indefinite",
+                "pointInTime": ""
+            },
+            "privacyModelList": [],
+            "legalBasisList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Consent"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "You provided explicit consent."
+                        }
+                    ],
+                    "lbCategory": "consent"
+                }
+            ],
+            "automatedDecisionMakingList": [],
+            "pseudonymizationMethodList": []
+        },
+        {
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Order Processing"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "We process the following data to be able to fulfil your orders."
+                }
+            ],
+            "name": "Order Processing",
+            "optOut": false,
+            "required": true,
+            "pointOfAcceptance": "",
+            "dataRecipientList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Parcel Service"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "The delivery company in charge of delivering your order to you."
+                        }
+                    ],
+                    "name": "ParcelServiceGer_Order Processing",
+                    "authInfo": "",
+                    "classification": "Legal Entity",
+                    "type": "DataRecipient",
+                    "id": 1,
+                    "required": true,
+                    "pointOfAcceptance": "",
+                    "thirdCountryTransfer": false,
+                    "country": "DE",
+                    "adequacyDecision": false,
+                    "safeguardList": [
+                        {
+                            "head": [],
+                            "desc": [],
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "dataList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Mail-Address"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "Address"
+                        }
+                    ],
+                    "id": 3,
+                    "name": "E-mail Address_Order Processing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Account"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that identifies an individual's financial account, e.g., credit card number, bank account."
+                                }
+                            ],
+                            "name": "dc_account"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Communication"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information communicated from or to an individual, e.g., telephone recordings, voice mail, email."
+                                }
+                            ],
+                            "name": "dc_communication"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Contact"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that provides a mechanism for contacting an individual, e.g., email address, physical address, telephone number."
+                                }
+                            ],
+                            "name": "dc_contact"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Address"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "apartment , street , house number , ZIP-code, country"
+                        }
+                    ],
+                    "id": 0,
+                    "name": "Adress_Order Processing",
+                    "required": true,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Location"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information about an individual's location, e.g., country, GPS coordinates, room number."
+                                }
+                            ],
+                            "name": "dc_location"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Name"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "Given Name + Surname"
+                        }
+                    ],
+                    "id": 1,
+                    "name": "name_Order Processing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Account"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that identifies an individual's financial account, e.g., credit card number, bank account."
+                                }
+                            ],
+                            "name": "dc_account"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Contact"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that provides a mechanism for contacting an individual, e.g., email address, physical address, telephone number."
+                                }
+                            ],
+                            "name": "dc_contact"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Communication"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information communicated from or to an individual, e.g., telephone recordings, voice mail, email."
+                                }
+                            ],
+                            "name": "dc_communication"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Identifying"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that uniquely or semi-uniquely identifies a specific individual, e.g., name, user-name, unique identifier, government issued identification, picture, biometric data."
+                                }
+                            ],
+                            "name": "dc_identifying"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Phone Number"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "The number to enter in a phone."
+                        }
+                    ],
+                    "id": 2,
+                    "name": "Phone Number_Order Processing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Communication"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information communicated from or to an individual, e.g., telephone recordings, voice mail, email."
+                                }
+                            ],
+                            "name": "dc_communication"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Payment Information "
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "Credit card details, Paypol accound reference"
+                        }
+                    ],
+                    "id": 7,
+                    "name": "payment information_Order Processing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Credit"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information about an individual's reputation with regards to money, e.g., credit records, credit worthiness, credit standing, credit capacity."
+                                }
+                            ],
+                            "name": "dc_credit"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Profile Picture"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "A picture depicting you."
+                        }
+                    ],
+                    "id": 6,
+                    "name": "profile picture_Order Processing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Value Set",
+                    "privacyGroup": "EI",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Identifying"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that uniquely or semi-uniquely identifies a specific individual, e.g., name, user-name, unique identifier, government issued identification, picture, biometric data."
+                                }
+                            ],
+                            "name": "dc_identifying"
+                        }
+                    ],
+                    "dataGroupList": []
+                }
+            ],
+            "retention": {
+                "head": [
+                    {
+                        "lang": "en",
+                        "value": "After Purpose"
+                    }
+                ],
+                "desc": [
+                    {
+                        "lang": "en",
+                        "value": "The data will be deleted 6 months after the order is completed."
+                    }
+                ],
+                "type": "afterPurpose",
+                "pointInTime": "15778458"
+            },
+            "privacyModelList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "k-Anonymity"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "k-Anonymity reduces the risk of identification"
+                        }
+                    ],
+                    "name": "k-Anonymity",
+                    "nameOfDataList": [
+                        {
+                            "name": "Adress_Order Processing"
+                        }
+                    ],
+                    "privacyModelAttributeList": [
+                        {
+                            "value": "12",
+                            "key": "k"
+                        }
+                    ]
+                }
+            ],
+            "legalBasisList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Orders"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "The data is processed for the fulfillment of your orders."
+                        }
+                    ],
+                    "lbCategory": "contract"
+                }
+            ],
+            "automatedDecisionMakingList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Automatic Username Generation"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "We use ChatGPT to automatically generate a username for you."
+                        }
+                    ],
+                    "name": "AI Username Generation"
+                }
+            ],
+            "pseudonymizationMethodList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Pseudonymized ID"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "We create a pseudonym for you."
+                        }
+                    ],
+                    "name": "Internal ID",
+                    "attrName": "User-ID",
+                    "pseudonymizationMethodAttributeList": [],
+                    "nameOfDataList": [
+                        {
+                            "name": "name_Order Processing"
+                        },
+                        {
+                            "name": "Phone Number_Order Processing"
+                        },
+                        {
+                            "name": "E-mail Address_Order Processing"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Taxes"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "Tax offices require us to provide some information about your transactions."
+                }
+            ],
+            "name": "Taxes",
+            "optOut": false,
+            "required": false,
+            "pointOfAcceptance": "",
+            "dataRecipientList": [],
+            "dataList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Payment Information "
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "Credit card details, Paypol accound reference"
+                        }
+                    ],
+                    "id": 7,
+                    "name": "payment information_Taxes",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Credit"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information about an individual's reputation with regards to money, e.g., credit records, credit worthiness, credit standing, credit capacity."
+                                }
+                            ],
+                            "name": "dc_credit"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Name"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "Given Name + Surname"
+                        }
+                    ],
+                    "id": 1,
+                    "name": "name_Taxes",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Account"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that identifies an individual's financial account, e.g., credit card number, bank account."
+                                }
+                            ],
+                            "name": "dc_account"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Contact"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that provides a mechanism for contacting an individual, e.g., email address, physical address, telephone number."
+                                }
+                            ],
+                            "name": "dc_contact"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Communication"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information communicated from or to an individual, e.g., telephone recordings, voice mail, email."
+                                }
+                            ],
+                            "name": "dc_communication"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Identifying"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that uniquely or semi-uniquely identifies a specific individual, e.g., name, user-name, unique identifier, government issued identification, picture, biometric data."
+                                }
+                            ],
+                            "name": "dc_identifying"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Address"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "apartment , street , house number , ZIP-code, country"
+                        }
+                    ],
+                    "id": 0,
+                    "name": "Adress_Taxes",
+                    "required": true,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Location"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information about an individual's location, e.g., country, GPS coordinates, room number."
+                                }
+                            ],
+                            "name": "dc_location"
+                        }
+                    ],
+                    "dataGroupList": []
+                }
+            ],
+            "retention": {
+                "head": [
+                    {
+                        "lang": "en",
+                        "value": "Tax Information"
+                    }
+                ],
+                "desc": [
+                    {
+                        "lang": "en",
+                        "value": "We have to store this information for the tax offices for 10 years."
+                    }
+                ],
+                "type": "afterPurpose",
+                "pointInTime": "0"
+            },
+            "privacyModelList": [],
+            "legalBasisList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Legal Obligation"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "We are legally obliged to store the information."
+                        }
+                    ],
+                    "lbCategory": "legalObligation"
+                }
+            ],
+            "automatedDecisionMakingList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Automatic Username Generation"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "We use ChatGPT to automatically generate a username for you."
+                        }
+                    ],
+                    "name": "AI Username Generation"
+                }
+            ],
+            "pseudonymizationMethodList": []
+        },
+        {
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Recommendations based on order history"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "We will provide you with recommendations that might interest you."
+                }
+            ],
+            "name": "Recomnnedations based on order history",
+            "optOut": false,
+            "required": false,
+            "pointOfAcceptance": "",
+            "dataRecipientList": [],
+            "dataList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Order History"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "Your orders within the last 6 months."
+                        }
+                    ],
+                    "id": 9,
+                    "name": "orderHistory_Recomnnedations based on order history",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Behavioral"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that describes an individual's behavior or activity, e.g., browsing behavior, call logs, links clicked, demeanor, attitude."
+                                }
+                            ],
+                            "name": "dc_behavioral"
+                        }
+                    ],
+                    "dataGroupList": []
+                }
+            ],
+            "retention": {
+                "head": [],
+                "desc": [],
+                "type": "",
+                "pointInTime": ""
+            },
+            "privacyModelList": [],
+            "legalBasisList": [],
+            "automatedDecisionMakingList": [],
+            "pseudonymizationMethodList": []
+        },
+        {
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Recommendations based on viewed products"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "We will provide you with recommendations that might interest you."
+                }
+            ],
+            "name": "Recommendations based on viewed products",
+            "optOut": false,
+            "required": false,
+            "pointOfAcceptance": "",
+            "dataRecipientList": [],
+            "dataList": [],
+            "retention": {
+                "head": [],
+                "desc": [],
+                "type": "",
+                "pointInTime": ""
+            },
+            "privacyModelList": [],
+            "legalBasisList": [],
+            "automatedDecisionMakingList": [],
+            "pseudonymizationMethodList": []
+        },
+        {
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Service Communication"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "We will communicate with you concerning current orders."
+                }
+            ],
+            "name": "communication (orders)",
+            "optOut": false,
+            "required": true,
+            "pointOfAcceptance": "",
+            "dataRecipientList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Parcel Service"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "The delivery company in charge of delivering your order to you."
+                        }
+                    ],
+                    "name": "ParcelServiceGer_Order Processing",
+                    "authInfo": "",
+                    "classification": "Legal Entity",
+                    "type": "DataRecipient",
+                    "id": 1,
+                    "required": true,
+                    "pointOfAcceptance": "",
+                    "thirdCountryTransfer": false,
+                    "country": "DE",
+                    "adequacyDecision": false,
+                    "safeguardList": [
+                        {
+                            "head": [],
+                            "desc": [],
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "dataList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Mail-Address"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "Address"
+                        }
+                    ],
+                    "id": 3,
+                    "name": "E-mail Address_Order Processing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Account"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that identifies an individual's financial account, e.g., credit card number, bank account."
+                                }
+                            ],
+                            "name": "dc_account"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Communication"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information communicated from or to an individual, e.g., telephone recordings, voice mail, email."
+                                }
+                            ],
+                            "name": "dc_communication"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Contact"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that provides a mechanism for contacting an individual, e.g., email address, physical address, telephone number."
+                                }
+                            ],
+                            "name": "dc_contact"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Address"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "apartment , street , house number , ZIP-code, country"
+                        }
+                    ],
+                    "id": 0,
+                    "name": "Adress_Order Processing",
+                    "required": true,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Location"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information about an individual's location, e.g., country, GPS coordinates, room number."
+                                }
+                            ],
+                            "name": "dc_location"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Profile Picture"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "A picture depicting you."
+                        }
+                    ],
+                    "id": 6,
+                    "name": "profile picture_Order Processing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Value Set",
+                    "privacyGroup": "EI",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Identifying"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that uniquely or semi-uniquely identifies a specific individual, e.g., name, user-name, unique identifier, government issued identification, picture, biometric data."
+                                }
+                            ],
+                            "name": "dc_identifying"
+                        }
+                    ],
+                    "dataGroupList": []
+                }
+            ],
+            "retention": {
+                "head": [],
+                "desc": [],
+                "type": "",
+                "pointInTime": ""
+            },
+            "privacyModelList": [],
+            "legalBasisList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "p"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "y"
+                        }
+                    ],
+                    "lbCategory": "contract"
+                }
+            ],
+            "automatedDecisionMakingList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Automatic Username Generation"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "We use ChatGPT to automatically generate a username for you."
+                        }
+                    ],
+                    "name": "AI Username Generation"
+                }
+            ],
+            "pseudonymizationMethodList": []
+        },
+        {
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Forums"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "If you use our forums you might receive notifications about new posts."
+                }
+            ],
+            "name": "communication (forums)",
+            "optOut": false,
+            "required": true,
+            "pointOfAcceptance": "",
+            "dataRecipientList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Parcel Service"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "The delivery company in charge of delivering your order to you."
+                        }
+                    ],
+                    "name": "ParcelServiceGer_Order Processing",
+                    "authInfo": "",
+                    "classification": "Legal Entity",
+                    "type": "DataRecipient",
+                    "id": 1,
+                    "required": true,
+                    "pointOfAcceptance": "",
+                    "thirdCountryTransfer": false,
+                    "country": "DE",
+                    "adequacyDecision": false,
+                    "safeguardList": [
+                        {
+                            "head": [],
+                            "desc": [],
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "dataList": [],
+            "retention": {
+                "head": [],
+                "desc": [],
+                "type": "",
+                "pointInTime": ""
+            },
+            "privacyModelList": [],
+            "legalBasisList": [],
+            "automatedDecisionMakingList": [],
+            "pseudonymizationMethodList": []
+        },
+        {
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Forums"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "This is the basic information required when you use our forums."
+                }
+            ],
+            "name": "forum provision ",
+            "optOut": false,
+            "required": true,
+            "pointOfAcceptance": "",
+            "dataRecipientList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Parcel Service"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "The delivery company in charge of delivering your order to you."
+                        }
+                    ],
+                    "name": "ParcelServiceGer_Order Processing",
+                    "authInfo": "",
+                    "classification": "Legal Entity",
+                    "type": "DataRecipient",
+                    "id": 1,
+                    "required": true,
+                    "pointOfAcceptance": "",
+                    "thirdCountryTransfer": false,
+                    "country": "DE",
+                    "adequacyDecision": false,
+                    "safeguardList": [
+                        {
+                            "head": [],
+                            "desc": [],
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "dataList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Profile Picture"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "A picture depicting you."
+                        }
+                    ],
+                    "id": 6,
+                    "name": "profile picture_Order Processing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Value Set",
+                    "privacyGroup": "EI",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Identifying"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that uniquely or semi-uniquely identifies a specific individual, e.g., name, user-name, unique identifier, government issued identification, picture, biometric data."
+                                }
+                            ],
+                            "name": "dc_identifying"
+                        }
+                    ],
+                    "dataGroupList": []
+                },
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Mail-Address"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "Address"
+                        }
+                    ],
+                    "id": 3,
+                    "name": "E-mail Address_Order Processing",
+                    "required": false,
+                    "pointOfAcceptance": "",
+                    "dataType": "Text",
+                    "privacyGroup": "SD",
+                    "anonymizationMethod": {
+                        "head": [],
+                        "desc": [],
+                        "name": "",
+                        "hierarchyEntityList": [],
+                        "anonymizationMethodAttributeList": []
+                    },
+                    "dataCategoryList": [
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Account"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that identifies an individual's financial account, e.g., credit card number, bank account."
+                                }
+                            ],
+                            "name": "dc_account"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Communication"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information communicated from or to an individual, e.g., telephone recordings, voice mail, email."
+                                }
+                            ],
+                            "name": "dc_communication"
+                        },
+                        {
+                            "head": [
+                                {
+                                    "lang": "en",
+                                    "value": "Contact"
+                                }
+                            ],
+                            "desc": [
+                                {
+                                    "lang": "en",
+                                    "value": "Information that provides a mechanism for contacting an individual, e.g., email address, physical address, telephone number."
+                                }
+                            ],
+                            "name": "dc_contact"
+                        }
+                    ],
+                    "dataGroupList": []
+                }
+            ],
+            "retention": {
+                "head": [
+                    {
+                        "lang": "en",
+                        "value": "bli"
+                    }
+                ],
+                "desc": [
+                    {
+                        "lang": "en",
+                        "value": "bla, blu"
+                    }
+                ],
+                "type": "indefinite",
+                "pointInTime": ""
+            },
+            "privacyModelList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "A Privacy Model"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "This is a description."
+                        }
+                    ],
+                    "name": "k-Anonymity",
+                    "nameOfDataList": [
+                        {
+                            "name": "E-mail Address_Order Processing"
+                        }
+                    ],
+                    "privacyModelAttributeList": [
+                        {
+                            "value": "6",
+                            "key": "k"
+                        }
+                    ]
+                }
+            ],
+            "legalBasisList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Service Provision"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "..."
+                        }
+                    ],
+                    "lbCategory": "contract"
+                }
+            ],
+            "automatedDecisionMakingList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "Automatic Username Generation"
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "We use ChatGPT to automatically generate a username for you."
+                        }
+                    ],
+                    "name": "AI Username Generation"
+                }
+            ],
+            "pseudonymizationMethodList": [
+                {
+                    "head": [
+                        {
+                            "lang": "en",
+                            "value": "A pseudonym for identification "
+                        }
+                    ],
+                    "desc": [
+                        {
+                            "lang": "en",
+                            "value": "We generate a pseudonym for you."
+                        }
+                    ],
+                    "name": "Pseudo1",
+                    "attrName": "Pseudo-ID",
+                    "pseudonymizationMethodAttributeList": [
+                        {
+                            "key": "Length of Pseudo-ID",
+                            "value": "12 bytes"
+                        }
+                    ],
+                    "nameOfDataList": [
+                        {
+                            "name": "E-mail Address_Order Processing"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "purposeHierarchy": [
+        {
+            "superPurpose": "legalCompliance",
+            "subPurpose": "Taxes"
+        },
+        {
+            "superPurpose": "marketing",
+            "subPurpose": "Marketing"
+        },
+        {
+            "superPurpose": "personalisation",
+            "subPurpose": "Recomnnedations based on order history"
+        },
+        {
+            "superPurpose": "personalisation",
+            "subPurpose": "Recommendations based on viewed products"
+        },
+        {
+            "superPurpose": "serviceProvision",
+            "subPurpose": "Order Processing"
+        },
+        {
+            "superPurpose": "Order Processing",
+            "subPurpose": "communication (orders)"
+        },
+        {
+            "superPurpose": "communication (orders)",
+            "subPurpose": "forum provision "
+        },
+        {
+            "superPurpose": "Order Processing",
+            "subPurpose": "communication (forums)"
+        }
+    ],
+    "controllerList": [
+        {
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "James Greensborough"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "shop manager"
+                }
+            ],
+            "name": "dataController",
+            "authInfo": "",
+            "classification": "Person",
+            "type": "Controller",
+            "firstName": "James",
+            "lastName": "Greensborough",
+            "address": "Horststra\u00dfe 92, 47890 Hessen-Dorf",
+            "phoneNumber": "0123876",
+            "email": "james.greensborough@jimmys.com"
+        }
+    ],
+    "dataProtectionOfficerList": [
+        {
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Horst"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "Der gro\u00dfe und allm\u00e4chtige Horst!"
+                }
+            ],
+            "name": "dpo",
+            "authInfo": "",
+            "classification": "Person",
+            "type": "DataProtectionOfficer",
+            "firstName": "Horst",
+            "lastName": "Schimpanski",
+            "address": "Bissmark Avenue",
+            "phoneNumber": "081512",
+            "email": "horst@uni-duese.de"
+        }
+    ],
+    "dataSubjectRightList": [
+        {
+            "name": "access",
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Right of Access"
+                },
+                {
+                    "lang": "de",
+                    "value": "Auskunftsrecht"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "You have the right of access to data which has been collected concerning you."
+                },
+                {
+                    "lang": "de",
+                    "value": "Sie haben das Recht auf Zugang zu den Daten, die \u00fcber Sie gesammelt wurden."
+                }
+            ]
+        },
+        {
+            "name": "rectification",
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Right to Rectification"
+                },
+                {
+                    "lang": "de",
+                    "value": "Recht auf Berichtigung"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "You have the right to have personal data rectified."
+                },
+                {
+                    "lang": "de",
+                    "value": "Sie haben das Recht, personenbezogene Daten berichtigen zu lassen."
+                }
+            ]
+        },
+        {
+            "name": "restriction",
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Right to Restrict Processing"
+                },
+                {
+                    "lang": "de",
+                    "value": "Recht auf Einschraenkung der Verarbeitung"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "You have the right to have the processing of personal data restricted."
+                },
+                {
+                    "lang": "de",
+                    "value": "Sie haben das Recht, die Verarbeitung personenbezogener Daten einschr\u00e4nken zu lassen."
+                }
+            ]
+        },
+        {
+            "name": "objection",
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Right to Object"
+                },
+                {
+                    "lang": "de",
+                    "value": "Widerspruchsrecht"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "You have the right to object to the processing of your personal data."
+                },
+                {
+                    "lang": "de",
+                    "value": "Sie haben das Recht, der Verarbeitung ihrer personenbezogenen Daten zu widersprechen."
+                }
+            ]
+        },
+        {
+            "name": "intervention",
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Right to Obtain Human Intervention for Automated Decision Making"
+                },
+                {
+                    "lang": "de",
+                    "value": "Recht auf menschliche Intervention bei automatisierter Entscheidungsfindung"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "You have the right to obtain human intervention in where decisions are solely based on automated decision making."
+                },
+                {
+                    "lang": "de",
+                    "value": "Sie haben das Recht, ein menschliches Eingreifen zu erwirken, wenn Entscheidungen ausschlie\u00dflich auf einer automatisierten Entscheidungsfindung beruhen."
+                }
+            ]
+        },
+        {
+            "name": "portability",
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Right to Data Portability"
+                },
+                {
+                    "lang": "de",
+                    "value": "Recht auf Datenuebertragbarkeit"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "You have the right to obtain a copy of your personal data in a way that is accessible and machine-readable, for example as a csv file. This copy may also be transferred directly to another service provider."
+                },
+                {
+                    "lang": "de",
+                    "value": "Sie haben das Recht, eine Kopie Ihrer personenbezogenen Daten in einer Weise zu erhalten, die zugaenglich und maschinenlesbar ist, z.B. als csv-Datei. Diese Kopie kann auch direkt an einen anderen Dienstanbieter uebertragen werden."
+                }
+            ]
+        },
+        {
+            "name": "erasure",
+            "head": [
+                {
+                    "lang": "en",
+                    "value": "Right to Erasure"
+                },
+                {
+                    "lang": "de",
+                    "value": "Recht auf Loeschung"
+                }
+            ],
+            "desc": [
+                {
+                    "lang": "en",
+                    "value": "You have the right to have personal data erased."
+                },
+                {
+                    "lang": "de",
+                    "value": "Sie haben das Recht, personenbezogene Daten loeschen zu lassen."
+                }
+            ]
+        }
+    ],
+    "lodgeComplaint": {
+        "head": [
+            {
+                "lang": "en",
+                "value": "Supervisory authority \\ Bettina Gaky"
+            }
+        ],
+        "desc": [
+            {
+                "lang": "en",
+                "value": "State Commissioner for Data Protection and Freedom of Information \nE-mail: poststelle@ldi.ues\nPhone: 0211345678\nAddress: Postfach 200444< 40102 Schusseldorf, Denmark"
+            }
+        ],
+        "name": "Supervisory Authority in Charge"
+    },
+    "head": [
+        {
+            "lang": "en",
+            "value": "Exemplary Privacy Policy"
+        },
+        {
+            "lang": "de",
+            "value": "Beispielhafte Datenschutzbestimmungen"
+        }
+    ],
+    "desc": [
+        {
+            "lang": "en",
+            "value": "This is an exemplary privacy policy, created to explain the PriPoCoG privacy policy interface."
+        }
+    ],
+    "underlyingLayeredPrivacyPolicy": []
+}
