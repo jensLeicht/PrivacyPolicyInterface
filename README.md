@@ -45,7 +45,7 @@ You can define your own privacy policy or edit the example policy using the PriP
 
 ## How to Cite
 
-`TBA`
+`Leicht Jens and Lukasewycz Julien, PriPoCoG Privacy Policy Interface, Zenodo, 2025, doi: 10.5281/zenodo.15125961`
 
 [^1]: Privacy Policy Compliance Guidance framework
 [^2]: Prolog - Layered Privacy Language

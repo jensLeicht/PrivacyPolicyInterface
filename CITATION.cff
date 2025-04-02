@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Leicht"
+  given-names: "Jens"
+  orcid: "https://orcid.org/0009-0003-5612-5590"
+- family-names: "Lukasewycz"
+  given-names: "Julien"
+  orcid: "https://orcid.org/0000-0002-6850-4788"
+title: "PriPoCoG Privacy Policy Interface"
+version: 1.0.0
+doi: 10.5281/zenodo.15125961
+date-released: 2025-04-02
+url: "https://zenodo.org/records/15125961"
+                           
